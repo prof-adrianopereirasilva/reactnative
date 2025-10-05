@@ -1,17 +1,18 @@
 {
   "expo": {
     "name": "appTesteDeTrabalhos",
+    "scheme": "appTesteDeTrabalhos",
     "slug": "appTesteDeTrabalhos",
     "version": "1.0.0",
     "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2563eb"},
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
